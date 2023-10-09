@@ -1,12 +1,12 @@
 {
-    "name": "Scaffold",
+    "name": "Kubernetes",
     "image": "mcr.microsoft.com/devcontainers/base:jammy",
     "features": {
         "ghcr.io/devcontainers/features/azure-cli:1": {
             "installBicep": true
         },
-        "ghcr.io/devcontainers/features/powershell:1": {
-            "modules": "Az"
+        "ghcr.io/ljtill/features/kubectl:1": {
+            "kubectx": true
         }
     },
     "customizations": {
