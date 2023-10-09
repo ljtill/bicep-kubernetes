@@ -15,5 +15,12 @@
                 "ms-azuretools.vscode-bicep"
             ]
         }
-    }
+    },
+    "mounts": [
+        {
+            "source": "azure",
+            "target": "/home/vscode/.azure",
+            "type": "volume"
+        }
+    ]
 }
