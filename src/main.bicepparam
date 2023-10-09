@@ -1,15 +1,24 @@
 using './main.bicep'
 
 param settings = {
-  subscriptionId: ''
-  resourceGroups: [
-    {
+  resourceGroups: {
+    services: {
       name: ''
       location: ''
+      resources: {}
       tags: {}
     }
-  ]
-  resources: {
-    tags: {}
+    clusters: {
+      name: ''
+      location: ''
+      resources: {
+        managedClusters: [
+          {
+            name: ''
+          }
+        ]
+      }
+      tags: {}
+    }
   }
 }
