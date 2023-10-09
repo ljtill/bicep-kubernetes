@@ -24,7 +24,7 @@ resource clusters 'Microsoft.ContainerService/managedClusters@2023-08-01' = [for
         enableAutoScaling: false
         osType: 'Linux'
         mode: 'System'
-        availabilityZones: [ '1', '2', '3' ]
+        availabilityZones: region.availabilityZones ? [ '1', '2', '3' ] : []
       }
       {
         name: 'user'
@@ -35,7 +35,7 @@ resource clusters 'Microsoft.ContainerService/managedClusters@2023-08-01' = [for
         maxCount: 20
         osType: 'Linux'
         mode: 'User'
-        availabilityZones: [ '1', '2', '3' ]
+        availabilityZones: region.availabilityZones ? [ '1', '2', '3' ] : []
       }
     ]
     autoUpgradeProfile: {
@@ -48,8 +48,9 @@ resource clusters 'Microsoft.ContainerService/managedClusters@2023-08-01' = [for
 // Variables
 // ---------
 
-var location = settings.clusters.location
-var resources = settings.clusters.resources
+var region = first(filter(defaults.regions, i => i.name == location))
+var location = settings.resourceGroups.clusters.location
+var resources = settings.resourceGroups.clusters.resources
 
 // ----------
 // Parameters

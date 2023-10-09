@@ -1,1 +1,585 @@
-{}
+{
+    "regions": [
+        {
+            "name": "asia",
+            "displayName": "Asia",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "asiapacific",
+            "displayName": "Asia Pacific",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "australia",
+            "displayName": "Australia",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "australiacentral",
+            "displayName": "Australia Central",
+            "country": "Australia",
+            "city": "Canberra",
+            "availabilityZones": false
+        },
+        {
+            "name": "australiacentral2",
+            "displayName": "Australia Central 2",
+            "country": "Australia",
+            "city": "Canberra",
+            "availabilityZones": false
+        },
+        {
+            "name": "australiaeast",
+            "displayName": "Australia East",
+            "country": "Australia",
+            "city": "New South Wales",
+            "availabilityZones": true
+        },
+        {
+            "name": "australiasoutheast",
+            "displayName": "Australia Southeast",
+            "country": "Australia",
+            "city": "Victoria",
+            "availabilityZones": false
+        },
+        {
+            "name": "brazil",
+            "displayName": "Brazil",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "brazilsouth",
+            "displayName": "Brazil South",
+            "country": "Brazil",
+            "city": "Sao Paulo State",
+            "availabilityZones": true
+        },
+        {
+            "name": "brazilsoutheast",
+            "displayName": "Brazil Southeast",
+            "country": "Brazil",
+            "city": "Rio",
+            "availabilityZones": false
+        },
+        {
+            "name": "brazilus",
+            "displayName": "Brazil US",
+            "country": "Brazil",
+            "city": "",
+            "availabilityZones": false
+        },
+        {
+            "name": "canada",
+            "displayName": "Canada",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "canadacentral",
+            "displayName": "Canada Central",
+            "country": "Canada",
+            "city": "Toronto",
+            "availabilityZones": true
+        },
+        {
+            "name": "canadaeast",
+            "displayName": "Canada East",
+            "country": "Canada",
+            "city": "Quebec",
+            "availabilityZones": false
+        },
+        {
+            "name": "centralindia",
+            "displayName": "Central India",
+            "country": "India",
+            "city": "Pune",
+            "availabilityZones": true
+        },
+        {
+            "name": "centralus",
+            "displayName": "Central US",
+            "country": "United States",
+            "city": "Iowa",
+            "availabilityZones": true
+        },
+        {
+            "name": "centraluseuap",
+            "displayName": "Central US EUAP",
+            "country": "Canary (US)",
+            "city": "",
+            "availabilityZones": true
+        },
+        {
+            "name": "centralusstage",
+            "displayName": "Central US (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "eastasia",
+            "displayName": "East Asia",
+            "country": "Asia Pacific",
+            "city": "Hong Kong",
+            "availabilityZones": true
+        },
+        {
+            "name": "eastasiastage",
+            "displayName": "East Asia (Stage)",
+            "country": "asia",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "eastus",
+            "displayName": "East US",
+            "country": "United States",
+            "city": "Virginia",
+            "availabilityZones": true
+        },
+        {
+            "name": "eastus2",
+            "displayName": "East US 2",
+            "country": "United States",
+            "city": "Virginia",
+            "availabilityZones": true
+        },
+        {
+            "name": "eastus2euap",
+            "displayName": "East US 2 EUAP",
+            "country": "Canary (US)",
+            "city": "",
+            "availabilityZones": true
+        },
+        {
+            "name": "eastus2stage",
+            "displayName": "East US 2 (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "eastusstage",
+            "displayName": "East US (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "eastusstg",
+            "displayName": "East US STG",
+            "country": "Stage (US)",
+            "city": "Virginia",
+            "availabilityZones": false
+        },
+        {
+            "name": "europe",
+            "displayName": "Europe",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "france",
+            "displayName": "France",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "francecentral",
+            "displayName": "France Central",
+            "country": "France",
+            "city": "Paris",
+            "availabilityZones": true
+        },
+        {
+            "name": "francesouth",
+            "displayName": "France South",
+            "country": "France",
+            "city": "Marseille",
+            "availabilityZones": false
+        },
+        {
+            "name": "germany",
+            "displayName": "Germany",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "germanynorth",
+            "displayName": "Germany North",
+            "country": "Germany",
+            "city": "Berlin",
+            "availabilityZones": false
+        },
+        {
+            "name": "germanywestcentral",
+            "displayName": "Germany West Central",
+            "country": "Germany",
+            "city": "Frankfurt",
+            "availabilityZones": true
+        },
+        {
+            "name": "global",
+            "displayName": "Global",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "india",
+            "displayName": "India",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "israelcentral",
+            "displayName": "Israel Central",
+            "country": "Israel",
+            "city": "Israel",
+            "availabilityZones": true
+        },
+        {
+            "name": "italynorth",
+            "displayName": "Italy North",
+            "country": "Italy",
+            "city": "Milan",
+            "availabilityZones": true
+        },
+        {
+            "name": "japan",
+            "displayName": "Japan",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "japaneast",
+            "displayName": "Japan East",
+            "country": "Japan",
+            "city": "Tokyo, Saitama",
+            "availabilityZones": true
+        },
+        {
+            "name": "japanwest",
+            "displayName": "Japan West",
+            "country": "Japan",
+            "city": "Osaka",
+            "availabilityZones": false
+        },
+        {
+            "name": "jioindiacentral",
+            "displayName": "Jio India Central",
+            "country": "India",
+            "city": "Nagpur",
+            "availabilityZones": false
+        },
+        {
+            "name": "jioindiawest",
+            "displayName": "Jio India West",
+            "country": "India",
+            "city": "Jamnagar",
+            "availabilityZones": false
+        },
+        {
+            "name": "korea",
+            "displayName": "Korea",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "koreacentral",
+            "displayName": "Korea Central",
+            "country": "Korea",
+            "city": "Seoul",
+            "availabilityZones": true
+        },
+        {
+            "name": "koreasouth",
+            "displayName": "Korea South",
+            "country": "Korea",
+            "city": "Busan",
+            "availabilityZones": false
+        },
+        {
+            "name": "northcentralus",
+            "displayName": "North Central US",
+            "country": "United States",
+            "city": "Illinois",
+            "availabilityZones": false
+        },
+        {
+            "name": "northcentralusstage",
+            "displayName": "North Central US (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "northeurope",
+            "displayName": "North Europe",
+            "country": "Europe",
+            "city": "Ireland",
+            "availabilityZones": true
+        },
+        {
+            "name": "norway",
+            "displayName": "Norway",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "norwayeast",
+            "displayName": "Norway East",
+            "country": "Norway",
+            "city": "Norway",
+            "availabilityZones": true
+        },
+        {
+            "name": "norwaywest",
+            "displayName": "Norway West",
+            "country": "Norway",
+            "city": "Norway",
+            "availabilityZones": false
+        },
+        {
+            "name": "polandcentral",
+            "displayName": "Poland Central",
+            "country": "Poland",
+            "city": "Warsaw",
+            "availabilityZones": true
+        },
+        {
+            "name": "qatarcentral",
+            "displayName": "Qatar Central",
+            "country": "Qatar",
+            "city": "Doha",
+            "availabilityZones": true
+        },
+        {
+            "name": "singapore",
+            "displayName": "Singapore",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "southafrica",
+            "displayName": "South Africa",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "southafricanorth",
+            "displayName": "South Africa North",
+            "country": "South Africa",
+            "city": "Johannesburg",
+            "availabilityZones": true
+        },
+        {
+            "name": "southafricawest",
+            "displayName": "South Africa West",
+            "country": "South Africa",
+            "city": "Cape Town",
+            "availabilityZones": false
+        },
+        {
+            "name": "southcentralus",
+            "displayName": "South Central US",
+            "country": "United States",
+            "city": "Texas",
+            "availabilityZones": true
+        },
+        {
+            "name": "southcentralusstage",
+            "displayName": "South Central US (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "southcentralusstg",
+            "displayName": "South Central US STG",
+            "country": "Stage (US)",
+            "city": "Texas",
+            "availabilityZones": false
+        },
+        {
+            "name": "southeastasia",
+            "displayName": "Southeast Asia",
+            "country": "Asia Pacific",
+            "city": "Singapore",
+            "availabilityZones": true
+        },
+        {
+            "name": "southeastasiastage",
+            "displayName": "Southeast Asia (Stage)",
+            "country": "asia",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "southindia",
+            "displayName": "South India",
+            "country": "India",
+            "city": "Chennai",
+            "availabilityZones": false
+        },
+        {
+            "name": "swedencentral",
+            "displayName": "Sweden Central",
+            "country": "Sweden",
+            "city": "Gävle",
+            "availabilityZones": true
+        },
+        {
+            "name": "switzerland",
+            "displayName": "Switzerland",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "switzerlandnorth",
+            "displayName": "Switzerland North",
+            "country": "Switzerland",
+            "city": "Zurich",
+            "availabilityZones": true
+        },
+        {
+            "name": "switzerlandwest",
+            "displayName": "Switzerland West",
+            "country": "Switzerland",
+            "city": "Geneva",
+            "availabilityZones": false
+        },
+        {
+            "name": "uae",
+            "displayName": "United Arab Emirates",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "uaecentral",
+            "displayName": "UAE Central",
+            "country": "UAE",
+            "city": "Abu Dhabi",
+            "availabilityZones": false
+        },
+        {
+            "name": "uaenorth",
+            "displayName": "UAE North",
+            "country": "UAE",
+            "city": "Dubai",
+            "availabilityZones": true
+        },
+        {
+            "name": "uk",
+            "displayName": "United Kingdom",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "uksouth",
+            "displayName": "UK South",
+            "country": "United Kingdom",
+            "city": "London",
+            "availabilityZones": true
+        },
+        {
+            "name": "ukwest",
+            "displayName": "UK West",
+            "country": "United Kingdom",
+            "city": "Cardiff",
+            "availabilityZones": false
+        },
+        {
+            "name": "unitedstates",
+            "displayName": "United States",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "unitedstateseuap",
+            "displayName": "United States EUAP",
+            "country": null,
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "westcentralus",
+            "displayName": "West Central US",
+            "country": "United States",
+            "city": "Wyoming",
+            "availabilityZones": false
+        },
+        {
+            "name": "westeurope",
+            "displayName": "West Europe",
+            "country": "Europe",
+            "city": "Netherlands",
+            "availabilityZones": true
+        },
+        {
+            "name": "westindia",
+            "displayName": "West India",
+            "country": "India",
+            "city": "Mumbai",
+            "availabilityZones": false
+        },
+        {
+            "name": "westus",
+            "displayName": "West US",
+            "country": "United States",
+            "city": "California",
+            "availabilityZones": false
+        },
+        {
+            "name": "westus2",
+            "displayName": "West US 2",
+            "country": "United States",
+            "city": "Washington",
+            "availabilityZones": true
+        },
+        {
+            "name": "westus2stage",
+            "displayName": "West US 2 (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        },
+        {
+            "name": "westus3",
+            "displayName": "West US 3",
+            "country": "United States",
+            "city": "Phoenix",
+            "availabilityZones": true
+        },
+        {
+            "name": "westusstage",
+            "displayName": "West US (Stage)",
+            "country": "usa",
+            "city": null,
+            "availabilityZones": false
+        }
+    ]
+}

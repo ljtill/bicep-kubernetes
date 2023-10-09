@@ -9,18 +9,24 @@ targetScope = 'subscription'
 // ---------
 
 resource clusters 'Microsoft.Resources/resourceGroups@2023-07-01' = {
-  name: settings.clusters.name
-  location: settings.clusters.location
+  name: resourceGroups.clusters.name
+  location: resourceGroups.clusters.location
   properties: {}
-  tags: settings.clusters.tags
+  tags: resourceGroups.clusters.tags
 }
 
 resource services 'Microsoft.Resources/resourceGroups@2023-07-01' = {
-  name: settings.services.name
-  location: settings.services.location
+  name: resourceGroups.services.name
+  location: resourceGroups.services.location
   properties: {}
-  tags: settings.services.tags
+  tags: resourceGroups.services.tags
 }
+
+// ---------
+// Variables
+// ---------
+
+var resourceGroups = settings.resourceGroups
 
 // ----------
 // Parameters
