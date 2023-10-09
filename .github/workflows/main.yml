@@ -37,6 +37,10 @@ jobs:
             | jq '{"regions": [.[] | {"name": .name, "displayName": .displayName, "country": .metadata.geography, "city": .metadata.physicalLocation, "availabilityZones": (.availabilityZoneMappings | length > 0)}] | sort_by(.name)}' \
             | > ./src/defaults.json
 
+      - name: "Show defaults"
+        run: |
+          cat ./src/defaults.json
+
       - name: "Configure git"
         run: |
           git config user.name "github-actions[bot]"
