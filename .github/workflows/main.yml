@@ -29,13 +29,13 @@ jobs:
 
       - name: "Delete defaults"
         run: |
-          rm -rf ./src/defaults.json
+          rm -f ./src/defaults.json
 
       - name: "Generate defaults"
         run: |
           az account list-locations -o json \
             | jq '{"regions": [.[] | {"name": .name, "displayName": .displayName, "country": .metadata.geography, "city": .metadata.physicalLocation, "availabilityZones": (.availabilityZoneMappings | length > 0)}] | sort_by(.name)}' \
-            | > ./src/defaults.json
+            > ./src/defaults.json
 
       - name: "Show defaults"
         run: |
